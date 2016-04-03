@@ -7,17 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B78B07111CAEFE41006B850E /* BLEDataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B06FB1CAEFE41006B850E /* BLEDataProcessor.swift */; };
+		B78B07121CAEFE41006B850E /* BLEDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B06FC1CAEFE41006B850E /* BLEDevice.swift */; };
+		B78B07131CAEFE41006B850E /* MemberInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B06FD1CAEFE41006B850E /* MemberInfo.swift */; };
+		B78B07141CAEFE41006B850E /* Members.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B06FE1CAEFE41006B850E /* Members.swift */; };
+		B78B07151CAEFE41006B850E /* LMGaugeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B78B07031CAEFE41006B850E /* LMGaugeView.m */; };
+		B78B07161CAEFE41006B850E /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = B78B07071CAEFE41006B850E /* BLE.m */; };
+		B78B07171CAEFE41006B850E /* BLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B07081CAEFE41006B850E /* BLE.swift */; };
+		B78B07181CAEFE41006B850E /* RBLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = B78B070C1CAEFE41006B850E /* RBLProtocol.m */; };
+		B78B07191CAEFE41006B850E /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B070E1CAEFE41006B850E /* ENSideMenu.swift */; };
+		B78B071A1CAEFE41006B850E /* HRToast+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B07101CAEFE41006B850E /* HRToast+UIView.swift */; };
+		B78B071C1CAEFE62006B850E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B071B1CAEFE62006B850E /* LoginViewController.swift */; };
+		B78B071E1CAEFE7B006B850E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B071D1CAEFE7B006B850E /* MainViewController.swift */; };
+		B78B07201CAEFE8E006B850E /* MeasureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B071F1CAEFE8E006B850E /* MeasureViewController.swift */; };
+		B78B07241CAEFF10006B850E /* CalibrateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B07211CAEFF10006B850E /* CalibrateViewController.swift */; };
+		B78B07251CAEFF10006B850E /* RBLDeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B07221CAEFF10006B850E /* RBLDeviceCell.swift */; };
+		B78B07261CAEFF10006B850E /* RBLDevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B07231CAEFF10006B850E /* RBLDevicesViewController.swift */; };
+		B7D8CC241CB1A84E0013EF92 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D8CC221CB1A84E0013EF92 /* Charts.framework */; };
+		B7D8CC251CB1A84E0013EF92 /* SigmaSwiftStatistics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D8CC231CB1A84E0013EF92 /* SigmaSwiftStatistics.framework */; };
 		B7F7F8D81CAE26AC00D25BC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F7F8D71CAE26AC00D25BC5 /* AppDelegate.swift */; };
-		B7F7F8DA1CAE26AC00D25BC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F7F8D91CAE26AC00D25BC5 /* ViewController.swift */; };
 		B7F7F8DD1CAE26AC00D25BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F7F8DB1CAE26AC00D25BC5 /* Main.storyboard */; };
 		B7F7F8DF1CAE26AC00D25BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7F7F8DE1CAE26AC00D25BC5 /* Assets.xcassets */; };
 		B7F7F8E21CAE26AC00D25BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F7F8E01CAE26AC00D25BC5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B78B06FB1CAEFE41006B850E /* BLEDataProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEDataProcessor.swift; sourceTree = "<group>"; };
+		B78B06FC1CAEFE41006B850E /* BLEDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEDevice.swift; sourceTree = "<group>"; };
+		B78B06FD1CAEFE41006B850E /* MemberInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberInfo.swift; sourceTree = "<group>"; };
+		B78B06FE1CAEFE41006B850E /* Members.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Members.swift; sourceTree = "<group>"; };
+		B78B07001CAEFE41006B850E /* bridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridging.h; sourceTree = "<group>"; };
+		B78B07021CAEFE41006B850E /* LMGaugeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMGaugeView.h; sourceTree = "<group>"; };
+		B78B07031CAEFE41006B850E /* LMGaugeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMGaugeView.m; sourceTree = "<group>"; };
+		B78B07061CAEFE41006B850E /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		B78B07071CAEFE41006B850E /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		B78B07081CAEFE41006B850E /* BLE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLE.swift; sourceTree = "<group>"; };
+		B78B07091CAEFE41006B850E /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+		B78B070B1CAEFE41006B850E /* RBLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBLProtocol.h; sourceTree = "<group>"; };
+		B78B070C1CAEFE41006B850E /* RBLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBLProtocol.m; sourceTree = "<group>"; };
+		B78B070E1CAEFE41006B850E /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
+		B78B07101CAEFE41006B850E /* HRToast+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HRToast+UIView.swift"; sourceTree = "<group>"; };
+		B78B071B1CAEFE62006B850E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ui/LoginViewController.swift; sourceTree = "<group>"; };
+		B78B071D1CAEFE7B006B850E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ui/MainViewController.swift; sourceTree = "<group>"; };
+		B78B071F1CAEFE8E006B850E /* MeasureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MeasureViewController.swift; path = ui/MeasureViewController.swift; sourceTree = "<group>"; };
+		B78B07211CAEFF10006B850E /* CalibrateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalibrateViewController.swift; path = ui/CalibrateViewController.swift; sourceTree = "<group>"; };
+		B78B07221CAEFF10006B850E /* RBLDeviceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RBLDeviceCell.swift; path = ui/RBLDeviceCell.swift; sourceTree = "<group>"; };
+		B78B07231CAEFF10006B850E /* RBLDevicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RBLDevicesViewController.swift; path = ui/RBLDevicesViewController.swift; sourceTree = "<group>"; };
+		B7D8CC221CB1A84E0013EF92 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = Carthage/Build/iOS/Charts.framework; sourceTree = "<group>"; };
+		B7D8CC231CB1A84E0013EF92 /* SigmaSwiftStatistics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SigmaSwiftStatistics.framework; path = Carthage/Build/iOS/SigmaSwiftStatistics.framework; sourceTree = "<group>"; };
 		B7F7F8D41CAE26AB00D25BC5 /* GeekMouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeekMouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F7F8D71CAE26AC00D25BC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7F7F8D91CAE26AC00D25BC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7F7F8DC1CAE26AC00D25BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7F7F8DE1CAE26AC00D25BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7F7F8E11CAE26AC00D25BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -29,15 +68,109 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D8CC241CB1A84E0013EF92 /* Charts.framework in Frameworks */,
+				B7D8CC251CB1A84E0013EF92 /* SigmaSwiftStatistics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B78B06F71CAEFE08006B850E /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				B78B07211CAEFF10006B850E /* CalibrateViewController.swift */,
+				B78B07221CAEFF10006B850E /* RBLDeviceCell.swift */,
+				B78B07231CAEFF10006B850E /* RBLDevicesViewController.swift */,
+				B78B071B1CAEFE62006B850E /* LoginViewController.swift */,
+				B78B071D1CAEFE7B006B850E /* MainViewController.swift */,
+				B78B071F1CAEFE8E006B850E /* MeasureViewController.swift */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		B78B06FA1CAEFE41006B850E /* data */ = {
+			isa = PBXGroup;
+			children = (
+				B78B06FB1CAEFE41006B850E /* BLEDataProcessor.swift */,
+				B78B06FC1CAEFE41006B850E /* BLEDevice.swift */,
+				B78B06FD1CAEFE41006B850E /* MemberInfo.swift */,
+				B78B06FE1CAEFE41006B850E /* Members.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		B78B06FF1CAEFE41006B850E /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				B78B07001CAEFE41006B850E /* bridging.h */,
+				B78B07011CAEFE41006B850E /* LMGaugeView */,
+				B78B07041CAEFE41006B850E /* RBLibrary */,
+				B78B070D1CAEFE41006B850E /* SwiftSideMenu */,
+				B78B070F1CAEFE41006B850E /* Toast */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		B78B07011CAEFE41006B850E /* LMGaugeView */ = {
+			isa = PBXGroup;
+			children = (
+				B78B07021CAEFE41006B850E /* LMGaugeView.h */,
+				B78B07031CAEFE41006B850E /* LMGaugeView.m */,
+			);
+			path = LMGaugeView;
+			sourceTree = "<group>";
+		};
+		B78B07041CAEFE41006B850E /* RBLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				B78B07051CAEFE41006B850E /* BLE */,
+				B78B070A1CAEFE41006B850E /* RBLProtocol */,
+			);
+			path = RBLibrary;
+			sourceTree = "<group>";
+		};
+		B78B07051CAEFE41006B850E /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				B78B07061CAEFE41006B850E /* BLE.h */,
+				B78B07071CAEFE41006B850E /* BLE.m */,
+				B78B07081CAEFE41006B850E /* BLE.swift */,
+				B78B07091CAEFE41006B850E /* BLEDefines.h */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		B78B070A1CAEFE41006B850E /* RBLProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				B78B070B1CAEFE41006B850E /* RBLProtocol.h */,
+				B78B070C1CAEFE41006B850E /* RBLProtocol.m */,
+			);
+			path = RBLProtocol;
+			sourceTree = "<group>";
+		};
+		B78B070D1CAEFE41006B850E /* SwiftSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				B78B070E1CAEFE41006B850E /* ENSideMenu.swift */,
+			);
+			path = SwiftSideMenu;
+			sourceTree = "<group>";
+		};
+		B78B070F1CAEFE41006B850E /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				B78B07101CAEFE41006B850E /* HRToast+UIView.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
 		B7F7F8CB1CAE26AB00D25BC5 = {
 			isa = PBXGroup;
 			children = (
+				B7D8CC221CB1A84E0013EF92 /* Charts.framework */,
+				B7D8CC231CB1A84E0013EF92 /* SigmaSwiftStatistics.framework */,
 				B7F7F8D61CAE26AC00D25BC5 /* GeekMouse */,
 				B7F7F8D51CAE26AB00D25BC5 /* Products */,
 			);
@@ -54,8 +187,10 @@
 		B7F7F8D61CAE26AC00D25BC5 /* GeekMouse */ = {
 			isa = PBXGroup;
 			children = (
+				B78B06FA1CAEFE41006B850E /* data */,
+				B78B06FF1CAEFE41006B850E /* libs */,
+				B78B06F71CAEFE08006B850E /* ui */,
 				B7F7F8D71CAE26AC00D25BC5 /* AppDelegate.swift */,
-				B7F7F8D91CAE26AC00D25BC5 /* ViewController.swift */,
 				B7F7F8DB1CAE26AC00D25BC5 /* Main.storyboard */,
 				B7F7F8DE1CAE26AC00D25BC5 /* Assets.xcassets */,
 				B7F7F8E01CAE26AC00D25BC5 /* LaunchScreen.storyboard */,
@@ -74,6 +209,7 @@
 				B7F7F8D01CAE26AB00D25BC5 /* Sources */,
 				B7F7F8D11CAE26AB00D25BC5 /* Frameworks */,
 				B7F7F8D21CAE26AB00D25BC5 /* Resources */,
+				B7D8CC261CB1A8640013EF92 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -130,13 +266,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B7D8CC261CB1A8640013EF92 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Charts.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SigmaSwiftStatistics.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B7F7F8D01CAE26AB00D25BC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7F7F8DA1CAE26AC00D25BC5 /* ViewController.swift in Sources */,
+				B78B07131CAEFE41006B850E /* MemberInfo.swift in Sources */,
+				B78B07151CAEFE41006B850E /* LMGaugeView.m in Sources */,
+				B78B07181CAEFE41006B850E /* RBLProtocol.m in Sources */,
+				B78B07201CAEFE8E006B850E /* MeasureViewController.swift in Sources */,
+				B78B07111CAEFE41006B850E /* BLEDataProcessor.swift in Sources */,
+				B78B07191CAEFE41006B850E /* ENSideMenu.swift in Sources */,
+				B78B07161CAEFE41006B850E /* BLE.m in Sources */,
+				B78B07121CAEFE41006B850E /* BLEDevice.swift in Sources */,
+				B78B07241CAEFF10006B850E /* CalibrateViewController.swift in Sources */,
+				B78B071E1CAEFE7B006B850E /* MainViewController.swift in Sources */,
+				B78B07141CAEFE41006B850E /* Members.swift in Sources */,
+				B78B071A1CAEFE41006B850E /* HRToast+UIView.swift in Sources */,
+				B78B07171CAEFE41006B850E /* BLE.swift in Sources */,
+				B78B071C1CAEFE62006B850E /* LoginViewController.swift in Sources */,
+				B78B07251CAEFF10006B850E /* RBLDeviceCell.swift in Sources */,
 				B7F7F8D81CAE26AC00D25BC5 /* AppDelegate.swift in Sources */,
+				B78B07261CAEFF10006B850E /* RBLDevicesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +418,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = GeekMouse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hyong.GeekMouse;
@@ -260,6 +433,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = GeekMouse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hyong.GeekMouse;
@@ -286,6 +463,7 @@
 				B7F7F8E81CAE26AC00D25BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
